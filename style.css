@@ -1,0 +1,267 @@
+#background {
+    background-color: rgba(150, 102, 78, 0.577);
+    width:100%;
+    height: 100%;
+}
+
+#container {
+    width: 50%;
+    height:max-content;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(150, 102, 78);
+    float: left;
+    margin-left: 17%;
+}
+
+h1 {
+width:auto;
+margin-left: 15px;
+font-family: "Abril Fatface", serif;
+font-style:italic;
+color: rgb(66, 39, 31);
+text-decoration: underline overline;
+}
+
+#section1 a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-left:4.4%;
+    padding-right:4.4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.6%;
+    background-color: rgb(83, 58, 52);
+    width: 1030px;
+    font-family: "Abril Fatface", serif;
+    font-style: oblique;
+    border-radius: 5px;
+} 
+
+#ana:hover {
+    color:rgb(216, 164, 127);
+}
+#hak:hover {
+    color: rgb(216, 164, 127);
+}
+#blog:hover {
+    color: rgb(216, 164, 127);
+}
+#gal:hover {
+    color: rgb(216, 164, 127);
+}
+#ilet:hover {
+    color: rgb(216, 164, 127);
+}
+
+.resim1 {
+    width: 96%;
+}
+
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Lora", serif;
+}
+
+.kalin {
+    font-weight: bold;
+    font-family: "Lora", serif;
+    text-decoration:underline;
+}
+
+.kalin i {
+    padding-right: 5px;
+    color:rgb(105, 54, 38);
+}
+
+#box1 {
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 170px;
+    float: left;
+    border: 4px solid rgb(150, 102, 78);
+    margin-left: 55px;
+    border-radius: 90px 7px;
+}
+
+#section2 p {
+    margin-left: 45px;
+}
+
+#section2 a {
+    color: rgb(144, 94, 63);
+    text-decoration: none;
+}
+
+#section2 p {
+    color: rgb(66, 39, 31);
+    font-family: "Abril Fatface", serif;
+    font-style: oblique;
+}
+
+#line {
+    width:190px;
+    height:1.5px;
+    background-color: rgba(161, 126, 102, 0.401);
+    margin:auto;
+}
+
+li {
+    color: rgb(105, 54, 38)
+}
+
+#mak:hover {
+    text-decoration:underline;
+}
+#mmf:hover {
+    text-decoration:underline;
+}
+#uze:hover {
+    text-decoration:underline;
+}
+#obs:hover {
+    text-decoration:underline;
+}
+
+#box2 {
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 140px;
+    float:inline-end;
+    margin-right: 195px;
+    margin-top: 30px;
+    border: 4px solid rgb(150, 102, 78);
+    border-radius: 7px 90px;
+}
+
+.social_media {
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+#box2 i {
+    color: rgb(105, 54, 38);
+    font-size: 30px;
+    padding: 2px;
+    margin-left: 25px;
+}
+
+.resim2 {
+    width: 70%;
+    margin-left: 20px;
+}
+
+#madde {
+    margin-left: 30px;
+    color: rgb(83, 58, 52);
+    font-family: "Abril Fatface", serif;
+}
+
+.afis {
+    width: 13%;
+    float: left;
+    margin-left: 20px;
+}
+
+#baslik {
+    font-family: "Abril Fatface", serif;
+    margin-left: 150px;
+    margin-top: 35px;
+}
+
+#baslik i {
+    width: 20px;
+    color:rgb(105, 54, 38);
+}
+
+#aciklama {
+    margin-left: 150px;
+    font-family: "Lora", serif;
+}
+
+.afis2 {
+    width: 13%;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+    
+#table {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width:60%;
+    border: 3px solid rgb(150, 102, 78);
+}
+
+.galeri {
+    width:100%;
+}
+
+#box3 {
+    margin-top: 30px;
+    background-color: rgba(133, 95, 62, 0.323);
+    padding: 15px;
+    border: 3px double  rgba(104, 71, 55, 0.874);
+    border-radius: 15px;
+}
+
+b {
+    color:rgb(66, 39, 31);
+    font-weight: 100;
+    font-family: "Abril Fatface", serif;
+}
+
+.buton {
+    background-color: rgb(88, 51, 36);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 25px;
+}
+
+
+
+@media screen and (max-width: 700px)
+{
+    
+    #container {
+        width:90%;
+        height: max-content;
+        margin-left: 4.5%;
+    }
+
+    #section1 a {
+        width: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1.7%;
+        padding-bottom: 1.8%;
+    } 
+
+    #box1 {
+    width: 230px;
+    height: 170px;
+    margin-left: 55px;
+    margin-top: 30px;
+    }
+
+    #box2 {
+    width: 230px;
+    height: 140px;
+    margin-left: 90%;
+    margin-right: 10%;
+    margin-top: 0px;
+    float:right;
+    border-radius: 90px 7px;
+    }
+
+    #aciklama {
+    margin-left: 130px;
+    }
+
+    #baslik {
+    margin-left: 150px;
+    margin-top: 16px;
+    }
+
+}
